@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Pro Goaltending | Goalie Training in Calgary</title>
+  <meta name="description" content="Specialized goaltender training, camps and development programs in Calgary, Alberta for goalies of all skill levels. Focused on efficiency, balance, and game-situation movement.">
+  <meta name="keywords" content="World Pro Goaltending, Calgary goalie training, hockey goaltender camps, private goalie lessons Calgary, goalie development Alberta">
+  <meta name="author" content="World Pro Goaltending">
+  
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="World Pro Goaltending | Goalie Training in Calgary">
+  <meta property="og:description" content="Specialized goaltender training, camps and development programs in Calgary, Alberta for goalies of all skill levels.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://worldprogoal.com/">
+  <meta property="og:image" content="./assets/images/hero-goalie.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="World Pro Goaltending Homepage">
+        <div class="brand-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrapper">
+          <span class="brand-text-main">World Pro</span>
+          <span class="brand-text-sub">Goaltending</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu-desktop" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="about.html" class="nav-link">About / Contact</a>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="header-cta-group">
+        <a href="tel:+14032594625" class="header-phone-link" aria-label="Call World Pro Goaltending at +1 403-259-4625">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>403-259-4625</span>
+        </a>
+        <button type="button" class="btn btn-primary btn-sm js-open-booking" data-open-modal="booking">
+          <span>Book a Session</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Menu">
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link active">
+        <span>Home</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="programs.html" class="mobile-nav-link">
+        <span>Programs</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="about.html" class="mobile-nav-link">
+        <span>About / Contact</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <a href="tel:+14032594625" class="mobile-contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>+1 403-259-4625</span>
+      </a>
+      <a href="mailto:info@worldprogoal.com" class="mobile-contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>info@worldprogoal.com</span>
+      </a>
+      <button type="button" class="btn btn-primary btn-full js-open-booking" data-open-modal="booking">
+        <span>Book a Session</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-home" aria-label="Hero Section">
+    <div class="hero-bg-container">
+      <img src="./assets/images/hero-goalie.jpg" alt="Hockey goaltender making an explosive athletic save on ice with cool arena lighting" class="hero-bg-image" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-overlay-radial"></div>
+
+    <div class="container hero-content">
+      <div class="eyebrow">Calgary • Goaltender Development</div>
+      <h1 class="hero-headline">
+        Develop The Goaltender.<br>
+        <span class="highlight">Elevate The Game.</span>
+      </h1>
+      <p class="hero-subtext">
+        Specialized goaltender training designed to develop movement, control, balance, confidence and game-ready decision making.
+      </p>
+      <div class="hero-cta-group">
+        <button type="button" class="btn btn-primary btn-lg js-open-booking" data-open-modal="booking">
+          <span>Book a Training Session</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <a href="programs.html" class="btn btn-secondary btn-lg">
+          <span>Explore Programs</span>
+        </a>
+      </div>
+    </div>
+
+    <a href="#positioning" class="scroll-indicator" aria-label="Scroll to positioning section">
+      <div class="mouse-icon">
+        <div class="mouse-wheel"></div>
+      </div>
+      <span>Scroll To Explore</span>
+    </a>
+  </section>
+
+  <!-- ==================== SECTION 3: TRUST / POSITIONING BAR ==================== -->
+  <section id="positioning" class="trust-bar" aria-label="World Pro Positioning Highlights">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">01 / Focus</span>
+          <h2 class="trust-title">Goaltender Specialists</h2>
+          <p class="trust-desc">100% dedicated to the technical and mental demands of the crease.</p>
+        </div>
+        <div class="trust-item">
+          <span class="trust-num">02 / Training</span>
+          <h2 class="trust-title">Private Training</h2>
+          <p class="trust-desc">One-on-one tailored progression targeting individual technical needs.</p>
+        </div>
+        <div class="trust-item">
+          <span class="trust-num">03 / Group</span>
+          <h2 class="trust-title">Camps & Clinics</h2>
+          <p class="trust-desc">High-repetition, game-situation development across Western Canada.</p>
+        </div>
+        <div class="trust-item">
+          <span class="trust-num">04 / Facility</span>
+          <h2 class="trust-title">Calgary, Alberta</h2>
+          <p class="trust-desc">Dedicated 45' × 85' goalie ice surface built for high-rep development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 4: INTRODUCTION (SPLIT SCREEN) ==================== -->
+  <section class="section-spacing" aria-label="About World Pro Goaltending">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-image-card">
+          <img src="./assets/images/coach-training.jpg" alt="World Pro goaltender coach instructing a goalie in the crease during on-ice practice" loading="lazy">
+          <div class="split-image-badge">
+            <span class="dot"></span>
+            <span>Game-Situation Instruction</span>
+          </div>
+        </div>
+        <div class="split-content">
+          <div class="eyebrow">Goaltending is Different.</div>
+          <h2>Train the Position.<br>Not Just the Player.</h2>
+          <p class="lead-text">
+            World Pro Goaltending focuses specifically on the demands of the crease. Training emphasizes efficient movement, balance, control, positioning, read-and-react skills and patience through game-situation repetition.
+          </p>
+          <div class="feature-list">
+            <div class="feature-list-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>High-repetition training on dedicated goalie ice.</span>
+            </div>
+            <div class="feature-list-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Compact butterfly mechanics and post integration.</span>
+            </div>
+            <div class="feature-list-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Development pathways from grassroots to elite competitive levels.</span>
+            </div>
+          </div>
+          <div>
+            <a href="about.html" class="btn btn-secondary">
+              <span>Meet World Pro</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 5: PROGRAMS PREVIEW ==================== -->
+  <section class="section-spacing section-divider" aria-label="Development Programs">
+    <div class="container">
+      <div class="text-center">
+        <div class="eyebrow">Programs & Pathways</div>
+        <h2>Training Built Around The Goaltender.</h2>
+        <p class="lead-text">
+          Targeted development programs tailored for individual goalies, competitive prep, team clinics, and minor hockey associations.
+        </p>
+      </div>
+
+      <div class="programs-grid">
+        <!-- 01 Private Training -->
+        <div class="program-card">
+          <div>
+            <div class="program-card-num">01</div>
+            <h3 class="program-card-title">Private Training</h3>
+            <p class="program-card-desc">
+              Personalized one-on-one development focused on the individual technical, movement, and tracking needs of the goaltender.
+            </p>
+          </div>
+          <a href="programs.html#private" class="btn-link">
+            <span>Explore Private Training</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- 02 Camps -->
+        <div class="program-card">
+          <div>
+            <div class="program-card-num">02</div>
+            <h3 class="program-card-title">Camps</h3>
+            <p class="program-card-desc">
+              Focused development environments for goalies looking to sharpen their skills, build confidence, and prepare for the upcoming season.
+            </p>
+          </div>
+          <a href="programs.html#camps" class="btn-link">
+            <span>View Camps</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- 03 Clinics -->
+        <div class="program-card">
+          <div>
+            <div class="program-card-num">03</div>
+            <h3 class="program-card-title">Clinics</h3>
+            <p class="program-card-desc">
+              Specialized small-group development for goaltenders, teams, and hockey organizations focusing on specific technical themes.
+            </p>
+          </div>
+          <a href="programs.html#clinics" class="btn-link">
+            <span>Explore Clinics</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- 04 Team & Association Development -->
+        <div class="program-card">
+          <div>
+            <div class="program-card-num">04</div>
+            <h3 class="program-card-title">Team & Association</h3>
+            <p class="program-card-desc">
+              Goaltender development, evaluation, coach education, and custom training sessions for minor hockey teams and associations.
+            </p>
+          </div>
+          <a href="programs.html#team-association" class="btn-link">
+            <span>Learn More</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 6: FACILITY ==================== -->
+  <section class="section-spacing section-divider" aria-label="Training Facility">
+    <div class="container">
+      <div class="text-center">
+        <div class="eyebrow">Dedicated Training Environment</div>
+        <h2>A Facility Built For Goaltenders.</h2>
+        <p class="lead-text">
+          A dedicated training environment designed around the unique movement, positioning, and technical demands of goaltending.
+        </p>
+      </div>
+
+      <div class="facility-showcase-box">
+        <div class="facility-image-wrapper">
+          <img src="./assets/images/facility-rink.jpg" alt="Dedicated 45' x 85' goalie ice training surface at World Pro Goaltending facility" loading="lazy">
+          <div class="facility-overlay"></div>
+        </div>
+
+        <div class="facility-info-bar">
+          <div class="facility-stat-block">
+            <div class="facility-stat-metric">45' × 85'</div>
+            <div class="facility-stat-label">Dedicated<br><span class="red">Ice Surface</span></div>
+          </div>
+
+          <div class="facility-bullets">
+            <div class="facility-bullet-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Specialized Crease Markings</span>
+            </div>
+            <div class="facility-bullet-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>High-Repetition Geometry</span>
+            </div>
+            <div class="facility-bullet-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Calgary Location</span>
+            </div>
+          </div>
+
+          <div>
+            <a href="about.html#facility" class="btn btn-secondary btn-sm">
+              <span>Explore The Facility</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 7: COACHING ==================== -->
+  <section class="section-spacing section-divider" aria-label="Coaching Staff">
+    <div class="container">
+      <div class="text-center">
+        <div class="eyebrow">Expertise On The Crease</div>
+        <h2>Experience On The Ice.</h2>
+        <p class="lead-text">
+          Dedicated, professional instructors committed to developing efficient, technically sound, and confident goaltenders.
+        </p>
+      </div>
+
+      <div class="coaches-grid">
+        <!-- Marcus Beesley -->
+        <div class="coach-card">
+          <div class="coach-avatar-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3 class="coach-name">Marcus Beesley</h3>
+          <span class="coach-role-badge">Senior Head Instructor</span>
+          <p class="coach-bio">
+            Leading technical curriculum and high-repetition game situation training across all age groups and competitive tiers.
+          </p>
+        </div>
+
+        <!-- David Voyevoda -->
+        <div class="coach-card">
+          <div class="coach-avatar-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3 class="coach-name">David Voyevoda</h3>
+          <span class="coach-role-badge">Senior Instructor</span>
+          <p class="coach-bio">
+            Specializing in balance, post-play efficiency, and technical movement drills designed for modern goaltenders.
+          </p>
+        </div>
+
+        <!-- Devin Green -->
+        <div class="coach-card">
+          <div class="coach-avatar-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3 class="coach-name">Devin Green</h3>
+          <span class="coach-role-badge">Senior Instructor</span>
+          <p class="coach-bio">
+            Focused on visual tracking, rebound control, and high-tempo game situation decision making.
+          </p>
+        </div>
+
+        <!-- Michael Morrow -->
+        <div class="coach-card">
+          <div class="coach-avatar-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3 class="coach-name">Michael Morrow</h3>
+          <span class="coach-role-badge">Senior Instructor</span>
+          <p class="coach-bio">
+            Delivering detailed individual instruction and foundational mechanics to prepare goalies for competitive competition.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 8: PHILOSOPHY & PILLARS ==================== -->
+  <section class="section-spacing section-divider" aria-label="Development Philosophy">
+    <div class="container">
+      <div class="text-center">
+        <div class="eyebrow">Development Manifesto</div>
+        <h2>Built Around The Goaltender.</h2>
+        <p class="lead-text">
+          Our core philosophy focuses on technical efficiency, composure, and dynamic movement inside the crease.
+        </p>
+      </div>
+
+      <div class="philosophy-grid">
+        <!-- Pillar 1 -->
+        <div class="pillar-card">
+          <div class="pillar-header">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6Z"/></svg>
+            <span class="pillar-num">01</span>
+          </div>
+          <h3 class="pillar-title">Efficient Movement</h3>
+          <p class="pillar-desc">
+            Eliminate wasted motion. Proper angle selection and crisp shuffles ensure you arrive square, set, and ready before the shot.
+          </p>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="pillar-card">
+          <div class="pillar-header">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+            <span class="pillar-num">02</span>
+          </div>
+          <h3 class="pillar-title">Dynamic Balance</h3>
+          <p class="pillar-desc">
+            Maintain center-of-mass control through every slide, recovery, and transition to stay poised for multiple consecutive saves.
+          </p>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="pillar-card">
+          <div class="pillar-header">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            <span class="pillar-num">03</span>
+          </div>
+          <h3 class="pillar-title">Crease Control</h3>
+          <p class="pillar-desc">
+            Master depth management and post-integration techniques to minimize open net exposure and command the home plate area.
+          </p>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="pillar-card">
+          <div class="pillar-header">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span class="pillar-num">04</span>
+          </div>
+          <h3 class="pillar-title">Read & React</h3>
+          <p class="pillar-desc">
+            Develop patience on release points and read shooter posture rather than guessing, resulting in calm, repeatable execution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 9: FINAL CTA BANNER ==================== -->
+  <section class="cta-banner" aria-label="Call to Action">
+    <div class="cta-banner-bg" style="background-image: url('./assets/images/hero-goalie.jpg');"></div>
+    <div class="cta-banner-overlay"></div>
+    <div class="container cta-banner-content">
+      <div class="eyebrow" style="justify-content: center;">Calgary's Goaltender Academy</div>
+      <h2>Ready To Take The Next Step?</h2>
+      <p>
+        Explore private training, camps and specialized goaltender development in Calgary.
+      </p>
+      <div class="cta-banner-buttons">
+        <button type="button" class="btn btn-primary btn-lg js-open-booking" data-open-modal="booking">
+          <span>Book a Training Session</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <a href="programs.html" class="btn btn-secondary btn-lg">
+          <span>Explore Programs</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 10: FOOTER ==================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand & Summary -->
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-logo" aria-label="World Pro Goaltending Homepage">
+            <div class="brand-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <div class="brand-text-wrapper">
+              <span class="brand-text-main">World Pro</span>
+              <span class="brand-text-sub">Goaltending</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            Specialized hockey goaltender development, private training, camps, clinics, and team education in Calgary, Alberta.
+          </p>
+          <div class="footer-social-row">
+            <a href="https://www.facebook.com/worldprogoal" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="World Pro Goaltending on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="mailto:info@worldprogoal.com" class="social-icon-btn" aria-label="Email World Pro Goaltending">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="tel:+14032594625" class="social-icon-btn" aria-label="Call World Pro Goaltending">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="programs.html" class="footer-link">Programs & Camps</a></li>
+            <li><a href="about.html" class="footer-link">About & Coaching</a></li>
+            <li><a href="about.html#contact" class="footer-link">Contact & Location</a></li>
+            <li><a href="https://worldprogoal.com/" target="_blank" rel="noopener noreferrer" class="footer-link">Official Website &rarr;</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Programs</h4>
+          <ul class="footer-links-list">
+            <li><a href="programs.html#private" class="footer-link">Private Training</a></li>
+            <li><a href="programs.html#camps" class="footer-link">Goalie Camps</a></li>
+            <li><a href="programs.html#clinics" class="footer-link">Specialized Clinics</a></li>
+            <li><a href="programs.html#team-association" class="footer-link">Association Development</a></li>
+          </ul>
+        </div>
+
+        <!-- Location & Contact -->
+        <div>
+          <h4 class="footer-col-title">Calgary Facility</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>5938 Centre Street SE<br>Calgary, AB T2H 0C1, Canada</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+14032594625" class="footer-link">+1 403-259-4625</a>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:info@worldprogoal.com" class="footer-link">info@worldprogoal.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> World Pro Goaltending. All rights reserved.</p>
+        <div class="footer-demo-notice">
+          Demo Presentation Concept • Built for World Pro Goaltending
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BOOKING / INQUIRY MODAL ==================== -->
+  <div id="bookingModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <div class="eyebrow" style="margin-bottom: 0.25rem;">World Pro Goaltending</div>
+          <h3 id="modalTitle" class="modal-title">Book A Session / Inquiry</h3>
+        </div>
+        <button type="button" class="modal-close-btn js-close-modal" aria-label="Close modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form data-validate="true" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="modalName" class="form-label">Full Name *</label>
+              <input type="text" id="modalName" class="form-input" placeholder="e.g. Connor Smith" required>
+              <span class="form-error">Please enter your name.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="modalEmail" class="form-label">Email Address *</label>
+              <input type="email" id="modalEmail" class="form-input" placeholder="name@example.com" required>
+              <span class="form-error">Please enter a valid email address.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="modalPhone" class="form-label">Phone Number *</label>
+              <input type="tel" id="modalPhone" class="form-input" placeholder="403-000-0000" required>
+              <span class="form-error">Please enter your phone number.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="modalProgramSelect" class="form-label">Program of Interest *</label>
+              <select id="modalProgramSelect" class="form-select" required>
+                <option value="private-training">Private Training</option>
+                <option value="camps">Camps & Clinics</option>
+                <option value="team-association">Team / Association Training</option>
+                <option value="general-inquiry">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="modalMessage" class="form-label">Goalie Age / Experience / Notes</label>
+              <textarea id="modalMessage" class="form-textarea" placeholder="Tell us about the goalie's current level, age group, or specific training focus..."></textarea>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <button type="submit" class="btn btn-primary btn-full btn-lg">
+              <span>Send Training Inquiry</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <p class="form-note text-center">
+              Direct inquiries can also be made by phone at <a href="tel:+14032594625" style="color:var(--text-primary); text-decoration:underline;">+1 403-259-4625</a>.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
